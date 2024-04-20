@@ -155,7 +155,11 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+body { 
+background: var(--smoky-black);
+/* background-image: radial-gradient(circle, #c6b257, #d08941, #d05d45, #c12d58, #9d0071, #7f006d, #610066, #42005e, #3e003e, #310325, #200313, #000000); */
+background-image: radial-gradient(circle, #ff00d3, #d806cb, #b10ec1, #8913b5, #6015a7, #570b8d, #4d0475, #42005e, #3e003e, #310325, #200313, #000000);
+}
 
 
 
@@ -213,6 +217,7 @@ article { display: none; }
 article.active {
   display: block;
   animation: fade 0.5s ease backwards;
+  background: #0f0000de;
 }
 
 @keyframes fade {
@@ -319,6 +324,7 @@ main {
   max-height: 112px;
   overflow: hidden;
   transition: var(--transition-2);
+  background: #0f000080;
 }
 
 .sidebar.active { max-height: 405px; }
@@ -529,6 +535,7 @@ main {
   border-radius: 14px;
   box-shadow: var(--shadow-2);
   z-index: 1;
+  
 }
 
 .service-item::before {
