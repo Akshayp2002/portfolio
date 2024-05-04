@@ -217,7 +217,7 @@ article { display: none; }
 article.active {
   display: block;
   animation: fade 0.5s ease backwards;
-  background: #0f0000de;
+  background: #171717bf;
 }
 
 @keyframes fade {
@@ -542,7 +542,7 @@ main {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-jet);
+  background: #171717bf;
   border-radius: inherit;
   z-index: -1;
 }
